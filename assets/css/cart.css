@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  
+  
+}
+
+.links{
+    height: 5%;
+    width: 100%;
+    font-size: 15px;
+    background-color: black;
+    #imgLogin, #imgCatalogo, #imgCarrinho{
+        height: 20px;
+    }
+    .marca{
+        float:right;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    nav{        
+        margin-top: 6px;
+        margin-left: 10px;
+       a{
+        padding: 5px 2px;
+        margin: 3px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        background-color: #737373;
+      }
+    }
+    
+    
+    
+}
+
+.tituloCarrinho {
+   margin: 10px;
+   margin-left: 20px;
+   font-size: 30px;
+}
+
+.carrinhoContainer {
+  display: flex;
+  font-size: 15px;
+}
+
+.itemCarrinho {
+  width: 70%;
+  margin: 15px;
+}
+
+.infoProduto {
+  display: flex;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #444; 
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.resumoCarrinho {
+  background-color: #161616;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #444; 
+  width:30%;
+  margin: 15px;
+  margin-left: 5px;
+}
+
+.botaoFinalizar {
+  width: 100%;
+  font-size: 13px;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+input {
+  background-color: #3f3f3f;
+  border: none;
+  color: white;padding: 4px;
+  font-size: 10px;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.botaoFinalizar:hover {
+  background-color: #555;
+  scale: 102%;
+}
+
+.infoProduto:hover {
+  background-color: #464646;
+  scale: 101%;
+  border: #ffffff solid 3px;
+  transition: 0.3s;
+} 
+
+.gameImg {
+  height: 150px;
+  width: 110px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.description {
+  color: #8b8b8b;
+}
+
+.cartItems {
+  display: flex;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #444; 
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.items, .prices {
+  width: 40%;
+}
+
+.prices {
+  float: right;
+}
+
+.total {
+  font-size: 19px;
+  }
+
+

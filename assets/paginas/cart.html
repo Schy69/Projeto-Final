@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/cart.css">
+    <title>Carrinho</title>
+</head>
+
+<body>
+
+    <div class="links">
+        <div class="marca">Young Games®️</div>
+        <nav>
+          <a href="/index.html"><img class="iconeLogin" id="imgLogin" src="/assets/img/door-open-svgrepo-com.svg" alt=""> Login</a>
+          <a href="/assets/paginas/catalogo.html"><img class="iconeCatalogo" id="imgCatalogo" src="\assets\img\rectangle-grid-2x2-svgrepo-com.svg" alt=""> Catálogo</a>
+          <a href="/assets/paginas/cart.html"><img class="iconeCarrirrinho" id="imgCarrinho" src="/assets/img/cart-shopping-svgrepo-com.svg" alt=""> Carrinho</a>
+        </nav>
+    </div>
+
+    <h1 class="tituloCarrinho">Seu Carrinho</h1>
+    <div class="carrinhoContainer">
+        
+        <div class="itemCarrinho">
+
+            <div class="infoProduto">
+                <div>
+                    <img class="gameImg" src="https://m.media-amazon.com/images/I/61Ao3yzr9xL._AC_UF1000,1000_QL80_.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="nomeProduto">God of War 4</h2>
+                    <p id="precoProduto1" class="precoProduto">R$ 149.90</p>
+                    <p class="quantidade">Quantidade: <input onclick="price()" id="inputProduto1" type="number" value="1" min="1"></p>
+                    <p class="description">God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de abril de 2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows. </p>
+                </div>
+            </div>
+
+            <div class="infoProduto">
+                <div>
+                    <img class="gameImg" src="https://upload.wikimedia.org/wikipedia/en/0/04/Hollow_Knight_first_cover_art.webp" alt="">
+                </div>
+
+                <div>
+                    <h2 class="nomeProduto">Hollow Knight</h2>
+                    <p id="precoProduto1" class="precoProduto">R$ 49.90</p>
+                    <p class="quantidade">Quantidade: <input onclick="price()" id="inputProduto1" type="number" value="1" min="1"></p>
+                    <p class="description">Hollow Knight é um jogo indie de gênero metroidvania desenvolvido e publicado pela Team Cherry, lançado para Microsoft Windows, macOS e Linux em 2017 e, posteriormente, para Nintendo Switch, Playstation 4 e Xbox One em 2018.</p>
+                </div>
+            </div>
+
+            <div class="infoProduto">
+                <div>
+                    <img class="gameImg" src="https://d5gag3xtge2og.cloudfront.net/producao/33662847/G/sub.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="nomeProduto">Subnautica: Below Zero</h2>
+                    <p id="precoProduto1" class="precoProduto">R$ 119.90</p>
+                    <p class="quantidade">Quantidade: <input onclick="price()" id="inputProduto1" type="number" value="1" min="1"></p>
+                    <p class="description">Subnautica: Below Zero é um videogame de ação e aventura de sobrevivência em mundo aberto desenvolvido e publicado pela Unknown Worlds Entertainment. O jogo é um spin-off do Subnautica. </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="resumoCarrinho">
+            <h2>Resumo da Compra (3)</h2>
+            <div class="cartItems">
+                <div class="items">
+                    <p>1. God of War 4 </p>
+                    <p>2. Hollow Knight</p>
+                    <p>3. Subnautica</p>
+                </div>
+
+                <div class="prices">
+                    <p>R$ 140.90</p>
+                    <p>R$ 49.90</p>
+                    <p>R$ 119.90</p>
+                </div>
+            </div>
+            
+            <p class="total">Total: R$ 310,70</p>
+            <button class="botaoFinalizar">Finalizar Compra</button>
+        </div>
+    </div>
+
+<script src="/assets/js/main.js"></script>
+</body>
+
+</html>

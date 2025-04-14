@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  
+  
+}
+
+.links{
+    height: 5%;
+    width: 100%;
+    font-size: 15px;
+    background-color: black;
+    #imgLogin, #imgCatalogo, #imgCarrinho{
+        height: 20px;
+    }
+    .marca{
+        float:right;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    nav{
+        
+        margin-top: 6px;
+        margin-left: 10px;
+       a{
+        padding: 5px 2px;
+        margin: 3px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        background-color: #737373;
+      }
+    }
+    
+    
+    
+}
+
+.loginhead {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#rodape{
+    color: #adadad;
+    font-size: 15px;
+}
+
+.ContainerEmail {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #444; 
+  width: 100%;
+  max-width: 400px;
+  margin-top: 40px
+}
+
+
+.formLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+
+.formControl {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #fff;
+  transition: border 0.3s;
+}
+
+.formControl:focus {
+  border-color: #888;
+  outline: none;
+}
+
+
+.formText {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+
+.caixaSelecao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.botaoSelecao {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.textoSelecao {
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.botaoLoginar {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+}
+
+.botaoLoginar:hover {
+  background-color: #555;
+}
+
+#textoErro {
+  margin-top: 90px;
+  color: red;
+  font-size: 25px;
+
+}
+
+
+.carrossel-noticias {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.carrossel {
+  display: flex;
+  transition: all 0.3s ease;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  scrollbar-width: none; 
+} 
+
+.carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+.carrossel img {
+  flex: 0 0 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.btn-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(60, 60, 60, 0.7);
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px 15px;
+  z-index: 1;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.btn-nav:hover {
+  background-color: rgba(100, 100, 100, 0.9);
+}
+
+.btn-nav.left {
+  left: 10px;
+}
+
+.btn-nav.right {
+  right: 10px;
+}
+
+
+  
+
